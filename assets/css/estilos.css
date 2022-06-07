@@ -11,7 +11,7 @@ body{
     min-width: 950px;
     height: 100px;
     background-color: #fff;
-    background-image: url("/assets/imgs/header.png");
+    background-image: url("assets/imgs/header.png");
     background-position: right;
     background-repeat: no-repeat;
     border: solid 1px #ccc;
