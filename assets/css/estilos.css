@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+
+body{
+    margin: auto 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: #ccc;
+}
+.cabecera{
+    width: 50%;
+    margin: auto;
+    min-width: 950px;
+    height: 100px;
+    background-color: #fff;
+    background-image: url("/assets/imgs/header.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border: solid 1px #ccc;
+    padding: 40px;
+    font-weight: 500;
+}
+
+.cabecera b{
+    font-weight: 300;
+}
+
+.productos{
+    width: 50%;
+    margin: auto;
+    min-width: 950px;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    padding: 40px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.detalleProductos{
+    margin: 30px;
+    width:950px;
+    clear: left;
+}
+
+.detalleProductos img{
+    width: 250px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.detalleProductos p{
+    width: 550px;
+    float: left;
+    display: block;
+    margin-bottom: 5px;;
+    
+}
+
+.pie{
+    width: 50%;
+    margin: auto;
+    min-width: 950px;
+    text-align: center;
+    background-color: #4d6f4c;
+    padding: 40px;
+    color: #fff;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+}
